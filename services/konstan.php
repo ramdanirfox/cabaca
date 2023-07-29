@@ -6,4 +6,5 @@ define('password', '');
 define('database', 'cabaca');
 
 /*----- Url -----*/
+define('url', 'http://localhost/cabaca');
 ?>
