@@ -1,9 +1,10 @@
 <?php
 
 require 'konstan.php';
-$konek = mysqli_connect(hostname, username, password, database);
+$koneksi = mysqli_connect(hostname, username, password, database);
 
-if (mysqli_errno($konek)) {
+if (mysqli_errno($koneksi)) {
     echo "Gagal koneksi ke database";
     exit;
 }
+?>
